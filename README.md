@@ -26,7 +26,6 @@ Brilliant Hanif Almubarak a.k.a. hanifptw
 
 
 ## Links
-Email : <brillianthanif@gmail.com>
 
 Instagram : [@hanifptw](http://instagram.com/hanifptw/)
 
