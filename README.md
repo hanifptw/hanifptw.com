@@ -3,7 +3,11 @@ Project 1 with [bearmentor](https://bearmentor.com/)
 
 Also my beloved mentor all the time [M Haidar Hanif](https://www.linkedin.com/in/mhaidarhanif/) 
 
-This project build portofolio using html and css basic, hope you can enjoy it
+This project build portofolio using html and css basic
+
+You can show the project at [hanifptw.vercel.app](https://hanifptw.vercel.app)
+
+Hope you can enjoy it =)
 
 ## Features
 - Home (introduction)
