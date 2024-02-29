@@ -1,93 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hanifptw</title>
-    <meta name="Hanifptw Portfolio" content="I'm an UI/UX Designer">
-</head>
-<body>
+    <meta name="Hanifptw Portfolio" content="I'm an UI/UX Designer" />
+    <link rel="stylesheet" href="index.css" />
+    <!-- embed font poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <header class="header">
+      <a href="/"><img alt="hanifptw-logo" src="images/hanif-logo.png" /></a>
+      <ul class="nav-menu">
+        <li><a class="nav-menu-list" href="/experience/">Experience</a></li>
+        <li><a class="nav-menu-list" href="/project/">Projects</a></li>
+        <li><a class="nav-menu-list" href="/contact/">Contact</a></li>
+      </ul>
+    </header>
 
-<header>
-    <img src="images/hanifptw-logo.jpg">
-    <ul>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Contact</li>
-    </ul>
-</header>
-
-<main>
-    <section>
+    <main>
+      <section>
         <div><h1>Halo I'm Hanifptw</h1></div>
-        <div><img src="/"></div>
-        <div> 
-            <p>I’m an <span>UI/UX Designer</span> with over 2 year of learning experience and still improve my skills.</p>
-            <p>Contributes as an event conceptor in the UX Design Online Community called Design Jam Indonesia. With the goal to improve the UX designer experience virtually.</p>
-            <p>Dedicated to lead several organizations around me : campus organizations, disaster volunteers, youth mosques, mosque administrators etc.</p>
-        </div> 
-    </section>
-    <div>line</div>
-    <section>
+        <div><img class="banner-img" src="/images/banner-hanifptw.jpg" /></div>
+        <div>
+          <p>
+            I’m an <span class="bold">UI/UX Designer</span> with over 2 year of
+            learning experience and still improve my skills.
+          </p>
+          <p>
+            Contributes as an event conceptor in the UX Design Online Community
+            called Design Jam Indonesia. With the goal to improve the UX
+            designer experience virtually.
+          </p>
+          <p>
+            Dedicated to lead several organizations around me : campus
+            organizations, disaster volunteers, youth mosques, mosque
+            administrators etc.
+          </p>
+        </div>
+      </section>
+      <hr />
+      <section>
         <div><h3>Featured Projects</h3></div>
         <div>
-            <div>
-                <div>
-                    <img src="/">
-                    <div>
-                        <p>Koperasi UPN Website</p>
-                        <p>Provides services, news, articles and product promos from Koperasi UPN</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="/">
-                    <div>
-                        <p>Si-Nau</p>
-                        <p>Online Learning App, platform for learning design, programing and student discussion</p>
-                    </div>
-                </div>
+          <div class="ls-project">
+            <div class="ls-project-each">
+              <img class="img-full-width" src="/images/koperasi-upn.jpg" />
+              <div class="ls-project-each-copy">
+                <p class="bold title-project">Koperasi UPN Website</p>
+                <p class="desc-project">
+                  Provides services, news, articles and product promos from
+                  Koperasi UPN
+                </p>
+              </div>
             </div>
-            <div>
-                <div>
-                    <img src="/">
-                    <div>
-                        <p>Empoyer Benefit PasarPolis</p>
-                        <p>B2B insurance landing page in Indonesia to provide various insurance for employees</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="/">
-                    <div>
-                        <p>Sisfo Community</p>
-                        <p>Activity Scheduling System and Integrate all community activities in one platform</p>
-                    </div>
-                </div>
+            <div class="ls-project-each">
+              <img class="img-full-width" src="/images/si-nau.jpg" />
+              <div class="ls-project-each-copy">
+                <p class="bold title-project">Si-Nau</p>
+                <p class="desc-project">
+                  Online Learning App, platform for learning design, programing
+                  and student discussion
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="ls-project">
+            <div class="ls-project-each">
+              <img class="img-full-width" src="/images/pasarpolis.jpg" />
+              <div class="ls-project-each-copy">
+                <p class="bold title-project">Empoyer Benefit PasarPolis</p>
+                <p class="desc-project">
+                  B2B insurance landing page in Indonesia to provide various
+                  insurance for employees
+                </p>
+              </div>
+            </div>
+            <div class="ls-project-each">
+              <img class="img-full-width" src="/images/sisfo-community.jpg" />
+              <div class="ls-project-each-copy">
+                <p class="bold title-project">Sisfo Community</p>
+                <p class="desc-project">
+                  Activity Scheduling System and Integrate all community
+                  activities in one platform
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <div>line</div>
-    <section>
+      </section>
+      <hr />
+      <section class="cta-section">
         <div>
-            <div>Interested? Lets Work Together!</div>
-            <div>Please tell what project you want to do</div>
+          <h3>Interested? Lets Work Together!</h3>
+          <div class="desc-cta-section">
+            Please tell what project you want to do
+          </div>
         </div>
-        <div>
-            <div><img src="/"></div>
-            <div>Lets Talk  </div>
+        <div class="btn-cta">
+          <div class="icon-btn-cta"><img src="/images/email-icon.svg" /></div>
+          <div class="btn-copy">Lets Talk</div>
         </div>
-    </section>
-    
-</main>
+      </section>
+    </main>
 
-<footer>
-    <p></p>
-    <ul>
-        <li>Instagram</li>
-        <li>Linkedin</li>
-        <li>Telegram</li>
-        <li>Medium</li>
-    </ul>
-</footer>
-    
-</body>
+    <footer>
+      <p class="copy-footer">&copy;2024 Brilliant Hanif Almubarak</p>
+      <ul class="ls-footer">
+        <li>
+          <a href="https://instagram.com/hanifptw/"
+            ><img
+              class="btn-footer"
+              src="/images/instagram.svg"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://linkedin.in/brillianthanif/"
+            ><img class="btn-footer" src="/images/linkedin.svg" alt="linkedin"
+          /></a>
+        </li>
+        <li>
+          <a href="https://te.me/hanifptw/"
+            ><img class="btn-footer" src="/images/telegram.svg" alt="telegram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://medium.com/brillianthanif"
+            ><img class="btn-footer" src="/images/medium.svg" alt="medium"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
