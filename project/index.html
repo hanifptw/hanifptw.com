@@ -1,74 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hanifptw</title>
-    <meta name="Hanifptw Portfolio" content="I'm an UI/UX Designer">
-</head>
-<body>
+    <meta name="description" content="I'm an UI/UX Designer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      margin: 0 auto;
+      background: linear-gradient(180deg, #212121 -1.74%, #111010 105.87%);
+      font-family: 'Poppins';
+    "
+    class="text-white pt-4 leading-normal max-w-screen-md"
+  >
+    <header class="flex items-center max-w-full justify-between pb-8">
+      <a href="/"><img alt="hanifptw-logo" src="/images/hanif-logo.png" /></a>
+      <ul class="flex gap-6">
+        <li><a class="nav-menu-list" href="/experience/">Experience</a></li>
+        <li><a class="nav-menu-list" href="/project/">Projects</a></li>
+        <li><a class="nav-menu-list" href="/contact/">Contact</a></li>
+      </ul>
+    </header>
 
-<header>
-    <img src="/images/hanifptw-logo.jpg">
-    <ul>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Contact</li>
-    </ul>
-</header>
+    <main>
+      <section>
+        <h3 class="font-bold text-xl my-6">Featured Projects</h3>
+        <div class="flex flex-col gap-6">
+          <div class="rounded-xl hover:scale-105 duration-200 ls-project-tw">
+            <img
+              class="h-40 w-full object-cover rounded-t-xl"
+              src="/images/koperasi-upn.jpg"
+              alt="koperasi-upn-website"
+            />
+            <div class="pt-4 pb-5 px-5">
+              <p class="font-bold pb-2">Koperasi UPN Website</p>
+              <p class="text-xs desc-project">
+                Provides services, news, articles and product promos from
+                Koperasi UPN
+              </p>
+            </div>
+          </div>
+          <div class="inline-flex items-start gap-6">
+            <div
+              class="rounded-xl flex-1 hover:scale-105 duration-200 ls-project-tw"
+            >
+              <img
+                class="w-full object-cover rounded-t-xl h-40 object-cover self-stretch"
+                src="/images/pasarpolis.jpg"
+                alt="pasarpolis"
+              />
+              <div class="pt-4 pb-5 px-5">
+                <p class="font-bold pb-2">Empoyer Benefit PasarPolis</p>
+                <p class="text-xs desc-project">
+                  B2B insurance landing page in Indonesia to provide various
+                  insurance for employees
+                </p>
+              </div>
+            </div>
+            <div
+              class="rounded-xl flex-1 hover:scale-105 duration-200 ls-project-tw"
+            >
+              <img
+                class="w-full object-cover rounded-t-xl h-40 self-stretch"
+                src="/images/sisfo-community.jpg"
+                alt="sisfo-comunity"
+              />
+              <div class="pt-4 pb-5 px-5">
+                <p class="font-bold pb-2">Sisfo Community</p>
+                <p class="text-xs desc-project">
+                  Activity Scheduling System and Integrate all community
+                  activities in one platform
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="inline-flex items-start gap-6">
+            <div
+              class="rounded-xl flex-1 hover:scale-105 duration-200 ls-project-tw"
+            >
+              <img
+                class="w-full object-cover rounded-t-xl h-40 object-cover self-stretch"
+                src="/images/si-nau.jpg"
+                alt="si-nau"
+              />
+              <div class="pt-4 pb-5 px-5">
+                <p class="font-bold pb-2">Si-Nau</p>
+                <p class="text-xs desc-project">
+                  Online Learning App, platform for learning design, programing
+                  and student discussion
+                </p>
+              </div>
+            </div>
+            <div class="flex-1">
+              <img
+                class="invisible"
+                src="/images/sisfo-community.jpg"
+                alt="sisfo-comunity"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="flex justify-center w-full mt-8">End of list</div>
+      <hr class="my-8" />
+      <section class="flex items-center justify-between">
+        <div class="flex flex-col gap-2">
+          <div class="text-xl font-bold">Interested? Lets Work Together!</div>
+          <div class="desc-cta-section">
+            Please tell what project you want to do
+          </div>
+        </div>
+        <div
+          class="flex items-center bg-white py-6 pr-12 pl-11 gap-2 rounded-xl hover:bg-gray-400"
+        >
+          <div><img src="/images/email-icon.svg" /></div>
+          <div class="text-black">Lets Talk</div>
+        </div>
+      </section>
+    </main>
 
-<main>
-    <section>
-        <h3>Featured Projects</h3>
-        <div>
-            <div>
-                <img src="/" alt="">
-                <p>Koperasi UPN Website</p>
-                <p>Provides services, news, articles and product promos from Koperasi UPN</p>
-            </div>
-            <div>
-                <div>
-                    <img src="/" alt="">
-                    <p>Empoyer Benefit PasarPolis</p>
-                    <p>B2B insurance landing page in Indonesia to provide various insurance for employees</p>
-                </div>
-                <div>
-                    <img src="/" alt="">
-                    <p>Sisfo Community</p>
-                    <p>Activity Scheduling System and Integrate all community activities in one platform</p>
-                </div>
-            </div>
-            <div>
-                <img src="/" alt="">
-                <p>Si-Nau</p>
-                <p>Online Learning App, platform for learning design, programing and student discussion</p>
-            </div>
-        </div>
-    </section>
-    <div>End of list</div>
-    <div>line</div>
-    <section>
-        <div>
-            <div>Interested? Lets Work Together!</div>
-            <div>Please tell what project you want to do</div>
-        </div>
-        <div>
-            <div><img src="/"></div>
-            <div>Lets Talk  </div>
-        </div>
-    </section>
-    
-</main>
-
-<footer>
-    <p>©2024 Brilliant Hanif Almubarak</p>
-    <ul>
-        <li>Instagram</li>
-        <li>Linkedin</li>
-        <li>Telegram</li>
-        <li>Medium</li>
-    </ul>
-</footer>
-    
-</body>
+    <footer class="my-6">
+      <p class="text-sm">©2024 Brilliant Hanif Almubarak</p>
+      <ul class="inline-flex gap-3 items-center">
+        <li>
+          <a href="https://instagram.com/hanifptw/"
+            ><img
+              class="btn-footer"
+              src="/images/instagram.svg"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://linkedin.in/brillianthanif/"
+            ><img src="/images/linkedin.svg" alt="linkedin"
+          /></a>
+        </li>
+        <li>
+          <a href="https://te.me/hanifptw/"
+            ><img src="/images/telegram.svg" alt="telegram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://medium.com/brillianthanif"
+            ><img src="/images/medium.svg" alt="medium"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>

@@ -16,6 +16,12 @@ footer {
   padding-top: 8em;
 }
 
+body{
+  --main-color: #272727;
+  --copy-text: #212121;
+
+}
+
 /* all body */
 .body {
   background: linear-gradient(180deg, #212121 -1.74%, #111010 105.87%);
@@ -81,6 +87,7 @@ footer {
   background-color: #212121;
   transform: scale(1.05);
 }
+
 
 .ls-project-each-copy {
   padding: 0px 20px 8px 20px;
@@ -165,5 +172,19 @@ footer {
 
 .desc-cta-section {
   font-size: 14;
+  color: #a3a3a3;
+}
+
+.ls-project-tw{
+  background-color: var(--main-color);
+}
+
+.ls-project-tw:hover {
+  cursor: pointer;
+  background-color: var(--copy-text);
+  transform: scale(1.05);
+}
+
+.desc-section {
   color: #a3a3a3;
 }
