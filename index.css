@@ -28,7 +28,7 @@ body{
   color: white;
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
-  max-width: 50em;
+  max-width: 48em;
   line-height: 1.5;
   padding: 1em 0em 0em 0em;
 }
@@ -102,6 +102,7 @@ body{
 
 .btn-cta {
   display: flex;
+  text-decoration: none;
   flex-direction: row;
   gap: 10px;
   padding: 21px 44px 16px 40px;
@@ -187,4 +188,12 @@ body{
 
 .desc-section {
   color: #a3a3a3;
+}
+
+.copy-color{
+  color: #212121;
+}
+
+.bg-color-black{
+  background-color: #272727;
 }

@@ -1,86 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hanifptw</title>
-    <meta name="Hanifptw Portfolio" content="I'm an UI/UX Designer">
-</head>
-<body>
+    <meta name="description" content="I'm an UI/UX Designer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    style="
+      margin: 0 auto;
+      background: linear-gradient(180deg, #212121 -1.74%, #111010 105.87%);
+      font-family: 'Poppins';
+    "
+    class="text-white pt-4 leading-normal max-w-screen-md h-screen"
+  >
+    <header class="flex items-center max-w-full justify-between pb-8">
+      <a href="/"><img alt="hanifptw-logo" src="/images/hanif-logo.png" /></a>
+      <ul class="flex gap-6">
+        <li><a class="nav-menu-list" href="/experience/">Experience</a></li>
+        <li><a class="nav-menu-list" href="/project/">Projects</a></li>
+        <li><a class="nav-menu-list" href="/contact/">Contact</a></li>
+      </ul>
+    </header>
 
-<header>
-    <img src="/images/hanifptw-logo.jpg">
-    <ul>
-        <li>Experience</li>
-        <li>Projects</li>
-        <li>Contact</li>
-    </ul>
-</header>
+    <main>
+      <section>
+        <h3 class="font-bold text-xl my-6">My Social Media</h3>
+        <p class="pb-6">Want to know more about me? Follow my social media</p>
 
-<main>
-    <section>
-        <h3>Featured Projects</h3>
-        <p>Want to know more about me?  Follow my social media</p>
-        
-        <div>
-            <div>
-                <div>
-                    <img src="/" alt="">
-                    <div>
-                        <p>Linkedin</p>
-                        <p>linkedin.com/in/brillianthanif</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="/" alt="">
-                    <div>
-                        <p>Medium</p>
-                        <p>medium.com/@brillianthanif</p>
-                    </div>
-                </div>
+        <div class="flex flex-col gap-6">
+          <div class="flex gap-6">
+            <div
+              class="flex gap-4 p-4 bg-color-black rounded-xl flex-1 hover:scale-105 duration-200 ls-project-tw"
+              style="border: 1px solid #313131;"
+            >
+              <img class="w-10" src="/images/linkedin.svg" alt="linkedin" />
+              <div>
+                <p class="text-xl font-bold">Linkedin</p>
+                <p>linkedin.com/in/brillianthanif</p>
+              </div>
             </div>
-            <div>
-                <div>
-                    <img src="/" alt="">
-                    <div>
-                        <p>Telegram</p>
-                        <p>t.me/haninfptw</p>
-                    </div>
-                </div>
-                <div>
-                    <img src="/" alt="">
-                    <div>
-                        <p>Instagram</p>
-                        <p>instagram.com/hanifptw</p>
-                    </div>
-                </div>
+            <div
+              class="flex gap-4 p-4 bg-color-black rounded-xl flex-1 hover:scale-105 duration-200 ls-project-tw"
+              style="border: 1px solid #313131;"
+              >
+              <img class="w-10" src="/images/medium.svg" alt="medium" />
+              <div>
+                <p class="text-xl font-bold">Medium</p>
+                <p>medium.com/@brillianthanif</p>
+              </div>
             </div>
+          </div>
+          <div class="flex gap-6">
+            <div
+              class="flex gap-4 p-4 bg-color-black rounded-xl flex-1 hover:scale-105 duration-200 ls-project-tw"
+              style="border: 1px solid #313131;"
+              >
+              <img class="w-10" src="/images/telegram.svg" alt="telegram" />
+              <div>
+                <p class="text-xl font-bold">Telegram</p>
+                <p>t.me/haninfptw</p>
+              </div>
+            </div>
+            <div
+              class="flex gap-4 p-4 bg-color-black rounded-xl flex-1 hover:scale-105 duration-200 ls-project-tw"
+              style="border: 1px solid #313131;"
+              >
+              <img class="w-10" src="/images/instagram.svg" alt="instagram" />
+              <div>
+                <p class="text-xl font-bold">Instagram</p>
+                <p>instagram.com/hanifptw</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+      <hr class="my-8" />
+      <section class="flex items-center justify-between">
+        <div class="flex flex-col gap-2">
+          <div class="text-xl font-bold">Interested? Lets Work Together!</div>
+          <div class="desc-cta-section">
+            Please tell what project you want to do
+          </div>
+        </div>
+        <a
+          class="flex items-center bg-white py-6 pr-12 pl-11 gap-2 rounded-xl hover:bg-gray-400"
+          href="mailto:brillianthanif@gmail.com"
+          target="_blank"
+        >
+          <div><img src="/images/email-icon.svg" /></div>
+          <div class="text-black">Lets Talk</div>
+        </a>
+      </section>
+    </main>
 
-    </section>
-    <div>line</div>
-    <section>
-        <div>
-            <div>Interested? Lets Work Together!</div>
-            <div>Please tell what project you want to do</div>
-        </div>
-        <div>
-            <div><img src="/"></div>
-            <div>Lets Talk  </div>
-        </div>
-    </section>
-    
-</main>
-
-<footer>
-    <p>©2024 Brilliant Hanif Almubarak</p>
-    <ul>
-        <li>Instagram</li>
-        <li>Linkedin</li>
-        <li>Telegram</li>
-        <li>Medium</li>
-    </ul>
-</footer>
-    
-</body>
+    <footer class="my-6">
+      <p class="text-sm">©2024 Brilliant Hanif Almubarak</p>
+      <ul class="inline-flex gap-3 items-center">
+        <li>
+          <a href="https://instagram.com/hanifptw/" target="_blank"
+            ><img
+              class="btn-footer"
+              src="/images/instagram.svg"
+              alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://linkedin.in/brillianthanif/" target="_blank"
+            ><img src="/images/linkedin.svg" alt="linkedin"
+          /></a>
+        </li>
+        <li>
+          <a href="https://t.me/hanifptw/" target="_blank"
+            ><img src="/images/telegram.svg" alt="telegram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://medium.com/brillianthanif" target="_blank"
+            ><img src="/images/medium.svg" alt="medium"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
