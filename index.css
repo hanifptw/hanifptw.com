@@ -16,10 +16,9 @@ footer {
   padding-top: 8em;
 }
 
-body{
+body {
   --main-color: #272727;
   --copy-text: #212121;
-
 }
 
 /* all body */
@@ -86,8 +85,8 @@ body{
   cursor: pointer;
   background-color: #212121;
   transform: scale(1.05);
+  transition: transform 0.2s;
 }
-
 
 .ls-project-each-copy {
   padding: 0px 20px 8px 20px;
@@ -176,7 +175,7 @@ body{
   color: #a3a3a3;
 }
 
-.ls-project-tw{
+.ls-project-tw {
   background-color: var(--main-color);
 }
 
@@ -190,10 +189,10 @@ body{
   color: #a3a3a3;
 }
 
-.copy-color{
+.copy-color {
   color: #212121;
 }
 
-.bg-color-black{
+.bg-color-black {
   background-color: #272727;
 }
